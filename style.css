@@ -825,6 +825,19 @@ h4 {
     background-image: url("img/image-de-presentation.jpg");
 }
 
+.section-title {
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: normal;
+}
+
+.citation, .citation-signature {
+    font-size: 18px;
+}
+.citation {
+    font-weight: 600;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
