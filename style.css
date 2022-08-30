@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -704,12 +704,12 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
+h3 {
     font-size: 22px;
     line-height: 1.4em;
 }
 
-h3 {
+h2 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
@@ -775,7 +775,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
@@ -822,9 +822,22 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
+.section-title {
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: normal;
+}
+
+.citation, .citation-signature {
+    font-size: 18px;
+}
+.citation {
+    font-weight: 600;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
